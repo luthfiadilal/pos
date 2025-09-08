@@ -25,17 +25,6 @@ export default function Router() {
       <Route path="/login" element={<Login />} />
       {/* Routes with Nosidebarlayout */}
 
-      <Route
-        element={
-          <ProtectedRoute>
-            <NoSidebarLayout />
-          </ProtectedRoute>
-        }
-      >
-        <Route path="/menu" element={<MenuPage />} />
-        <Route path="/eod" element={<EndOfDay />} />
-      </Route>
-
       {/* Routes with Mainlayout */}
       <Route
         element={

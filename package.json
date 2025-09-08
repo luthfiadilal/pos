@@ -26,7 +26,8 @@
     "react-i18next": "^15.6.0",
     "react-qr-code": "^2.0.18",
     "react-router-dom": "^7.6.3",
-    "use-debounce": "^10.0.5"
+    "use-debounce": "^10.0.5",
+    "sweetalert2": "^11.10.4"
   },
   "devDependencies": {
     "@types/react": "^19.1.8",
